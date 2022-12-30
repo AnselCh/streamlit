@@ -13,7 +13,12 @@ output_path = (f'rmbg{file}.png')
 with open(output_path, 'wb') as o:
     output = remove(data)
     o.write(output)
-# bug
-if output == True:
-    st.image(output)
+#loading fun
+def show(path):
+    st.image(path)
+
+ok = st.button('預覽')
+if ok:
+    show(output)
+    
 # st.download_button('Download file')
