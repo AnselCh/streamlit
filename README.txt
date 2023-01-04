@@ -2,7 +2,7 @@
 env : windows 10
 python == 3.10.8
 
-![image]https://github.com/AnselCh/streamlit/blob/main/example.gif
+![image](https://github.com/AnselCh/streamlit/blob/main/example.gif)
 
 部屬方法1:
 1.將此專案clone到本機端
